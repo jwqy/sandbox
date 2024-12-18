@@ -1,0 +1,54 @@
+* {
+	box-sizing: border-box;
+	font-family: Helvetica;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-image: url("./pattern.jpeg");
+	padding: 5px 5px;
+	margin: 40px 0;
+}
+
+h1 {
+	font-size: 100px;
+	font-weight: bold;
+	color: khaki;
+	text-align: center;
+}
+
+.item {
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 32px;
+	font-weight: bold;
+	color: white;
+}
+
+#brushes {
+	background-color: mediumspringgreen;
+}
+
+#frames {
+	background-color: lightcoral;
+}
+
+#paint {
+	background-color: skyblue;
+}
+
+img {
+	margin: 20px 0;
+}
+
+.description {
+	margin: 20px 0;
+}
+
+.price {
+	font-weight: bold;
+	color: blue;
+}
