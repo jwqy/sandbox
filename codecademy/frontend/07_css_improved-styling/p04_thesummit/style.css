@@ -1,0 +1,42 @@
+a {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.nav-link {
+	text-decoration: none;
+}
+
+.btn {
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+
+	background-color: rgba(91, 91, 91, 0.8);
+	padding: 15px 15px;
+	border-radius: 10px;
+	border: 2px solid white;
+}
+
+.btn:hover {
+	background-color: rgba(33, 118, 255, 0.8);
+}
+
+.btn:active {
+	background-color: rgba(7, 67, 162, 1.0);
+}
+
+.activity {
+	border-radius: 30px;
+	width: 200px;
+	height: 100px;
+}
+
+.activity:hover {
+	background-color: grey;
+}
+
+.activity:active {
+	background-color: black;
+}

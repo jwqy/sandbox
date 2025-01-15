@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>My HTML Cheat Sheet</title>
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Almendra+SC&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<header>
+		<h1>My HTML Cheat Sheet</h1>
+	</header>
+
+	<nav>
+		<a href="#table">Table</a>
+		<a href="#content">Content</a>
+		<a href="#typography">Typography</a>
+	</nav>
+
+	<main>
+		<div id="table">
+			<h1 class="topic">Table</h1>
+			<h2 class="sub-topic">Tags</h2>
+			<table>
+				<thead class="table">
+					<th>Tag</th>
+					<th>Name</th>
+					<th>Description</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="code">&lt;table&gt;</td>
+						<td>Table</td>
+						<td>The wrapper element for all HTML tables.</td>
+					</tr>
+					<tr>
+						<td class="code">&lt;thead&gt;</td>
+						<td>Table Head</td>
+						<td>The set of rows defining the column headers in a table.</td>
+					</tr>
+					<tr>
+						<td class="code">&lt;tbody&gt;</td>
+						<td>Table Body</td>
+						<td>The set of rows containing actual table data.</td>
+					</tr>
+					<tr>
+						<td class="code">&lt;tr&gt;</td>
+						<td>Table Row</td>
+						<td>The table row container.</td>
+					</tr>
+					<tr>
+						<td class="code">&lt;td&gt;</td>
+						<td>Table Data</td>
+						<td>The table row container.</td>
+					</tr>
+					<tr>
+						<td class="code">&lt;tfoot&gt;</td>
+						<td>Table Foot</td>
+						<td>The set of rows defining the footer in a table.</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<h2 class="sub-topic">Attributes</h2>
+			<table>
+				<thead class="table">
+					<th>Attributes</th>
+					<th>Name</th>
+					<th>Description</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="code">colspan</td>
+						<td>Column Span</td>
+					<td>Defines how many columns a td element should span.</td>
+					</tr>
+					<tr>
+						<td class="code">rowspan</td>
+						<td>Row Span</td>
+						<td>Defines how many rows a td element should span.</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<div id="content">
+			<h1 class="topic">Content</h1>
+			<h2 class="sub-topic">Generic</h2>
+			<table>
+				<thead class="content">
+					<th>Tag</th>
+					<th>Description</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="code">&lt;div&gt;</td>
+						<td>Generic container</td>
+					</tr>
+					<tr>
+						<td class="code">&lt;p&gt;</td>
+						<td>Block-level paragraph</td>
+					</tr>
+					<tr>
+						<td class="code">&lt;span&gt;</td>
+						<td>Generic inline container for phrasing content</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<h2 class="sub-topic">Short-hand</h2>
+			<table>
+				<thead class="content">
+					<th>Value</th>
+					<th>Position</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>4</td>
+						<td>top right bottom left</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>top left-right bottom</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>top-bottom left-right</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<div id="typography">
+			<h1 class="topic">Typography</h1>
+			<table>
+				<thead class="typography">
+					<th>Name</th>
+					<th>Typography</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>header</td>
+						<td><h1 class="inline">h1</h1> <h2 class="inline">h2</h2> <h3 class="inline">h3</h3> <h4 class="inline">h4</h4></td>
+					</tr>
+					<tr>
+						<td>colour</td>
+						<td><p style="color: #741b47;">#741b47</p>
+							<p><span style="color: rgb(116, 27, 71);">rgb(116, 27, 71)</span> <span style="color: rgba(116, 27, 71, 0.5);">rgb(116, 27, 71, 0.5)</span></p>
+							<p><span style="color: hsl(330, 62%, 28%);">hsl(330, 62%, 28%)</span> <span style="color: hsla(330, 62%, 28%, 0.5);">hsla(330, 62%, 28%, 0.5)</span></p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<div>
+			<p class="return"><a href="#">to top</a></p>
+		</div>
+	</main>
+
+	<footer>
+		<p>Developed by Jovi Woon</p>
+	</footer>
+</body>
+
+</html>

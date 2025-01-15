@@ -1,0 +1,85 @@
+body {
+	font-family: 'Roboto', 'Futura', sans-serif;
+	letter-spacing: 1px;
+}
+
+a {
+	cursor: pointer;
+	color: blue;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+header {
+	text-align: center;
+	font-family: 'Almendra SC', 'Papyrus', 'Book Antiqua';
+	letter-spacing: 1px;
+	word-spacing: 10px;
+}
+
+nav {
+	background-color: lightgrey;
+	padding: 10px 0;
+	text-align: center;
+	word-spacing: 20px;
+}
+
+main {
+	background-color: burlywood;
+	padding: 1px 0 20px;
+}
+
+.topic {
+	text-align: center;
+	font-family: 'Almendra SC', 'Papyrus', 'Book Antiqua';
+	letter-spacing: 1px;
+	word-spacing: 10px;
+}
+
+.sub-topic {
+	text-align: center;
+	color: dimgrey;
+}
+
+.code {
+	font-family: monospace;
+}
+
+table {
+	margin: 0 auto;
+	border: 1px solid black;
+	border-spacing: 20px 5px;
+}
+
+td {
+	border-top: 1px solid grey;
+	padding-top: 5px;
+}
+
+.table {
+	background-color: cornflowerblue;
+}
+
+.content {
+	background-color: forestgreen;
+}
+
+.typography {
+	background-color: lightcoral;
+}
+
+.inline {
+	display: inline;
+}
+
+.return {
+	text-align: center;
+}
+
+footer {
+	font-family: monospace;
+	text-align: right;
+}

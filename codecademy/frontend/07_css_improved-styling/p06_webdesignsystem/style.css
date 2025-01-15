@@ -1,0 +1,107 @@
+body {
+	font-family: 'Roboto', 'Futura', sans-serif;
+	letter-spacing: 1px;
+}
+
+header {
+	text-align: center;
+	font-family: 'Almendra SC', 'Papyrus', 'Book Antiqua';
+	letter-spacing: 1px;
+	word-spacing: 10px;
+}
+
+main {
+	background-color: burlywood;
+	padding: 1px 10px 20px;
+	text-align: center;
+}
+
+/*===== colours section =====*/
+.colour-panel {
+	display: inline-block;
+	padding: 15px 30px;
+	margin: 5px 5px;
+}
+
+.colour-purpose {
+	font-weight: bold;
+}
+
+.colour-code {
+	font-size: 12px;
+	line-height: 5px;
+}
+
+.link {
+	background-color: cornflowerblue;
+}
+
+.link-hover {
+	background-color: grey;
+}
+
+.link-active {
+	background-color: white;
+}
+
+/*===== fonts section =====*/
+.font-panel {
+	border: 1px solid grey;
+	display: inline-block;
+	padding: 15px 30px;
+	margin: 5px 5px;
+}
+
+.font-name {
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+.almendra-sc {
+	font-family: Almendra SC;
+}
+
+.roboto {
+	font-family: Roboto;
+}
+
+.monospace {
+	font-family: monospace;
+}
+
+/*===== text style section =====*/
+.style-panel {
+	border: 1px solid grey;
+	display: inline-block;
+	padding: 15px 30px;
+	margin: 5px 5px;
+}
+
+li {
+	text-align: left;
+	font-size: 16px;
+}
+
+.header {
+	font-family: 'Almendra SC';
+	font-weight: 400;
+	font-size: 36px;
+}
+
+.sub-header {
+	font-family: 'Roboto';
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.paragraph {
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 16px;
+}
+
+/*===== footer section =====*/
+footer {
+	font-family: monospace;
+	text-align: right;
+}

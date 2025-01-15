@@ -1,0 +1,19 @@
+.breadcrumb>li {
+	display: inline;
+}
+
+.breadcrumb li.location+li.location::before {
+	content: "> ";
+}
+
+.breadcrumb li.attribute a {
+	color: grey;
+}
+
+.breadcrumb a {
+	text-decoration: underline;
+}
+
+.breadcrumb a:active {
+	color: cornflowerblue;
+}
